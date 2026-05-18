@@ -1,0 +1,10 @@
+Package: pkg.lgjc
+Title: Extrae agebs
+Version: 0.0.0.9000
+Authors@R: 
+    person('Luis Gerardo', 'Juarez Cordoba', , "lugeju-9062005@hotmail.com", role = c("aut", "cre"))
+Description: Extrae agebs.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
