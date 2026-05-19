@@ -6,7 +6,7 @@
 
 #' @returns un objeto sf
 #' @export 
-#' @examples 1+1
+#' @examples 
 extrae_ageb = function(data_ageb,data_loc,localidad){
   #Paso 1. dato estados
   x = data_ageb

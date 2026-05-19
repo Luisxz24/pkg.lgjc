@@ -1,0 +1,29 @@
+---
+title: "Ejemplo de como extraer agebs"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Ejemplo de como extraer agebs}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(pkg.lgjc)
+```
+
+## Extraer los agebs
+```{r}
+x <- pkg.lgjc::ageb
+```
+
+## Visualizacion
+```{r}
+mapview::mapview(x)
+```
