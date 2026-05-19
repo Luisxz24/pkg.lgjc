@@ -31,7 +31,7 @@
 
 #' Agebs veracruz
 #'
-#' A spatial dataset containing polygon data of urban AGEBs from Veracruz.
+#' A spatial dataset containing polygon data of AGEBs from Veracruz.
 
 #' @format A sf object with 3346 rows and 6 variables:
 #' \describe{
